@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+    body{
+    background:#f2c58d;
+    font-family:Georgia, serif;
+}
+.container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    margin-top:30px;
+}
+.box{
+    width:300px;
+    height:280px;
+    padding:20px;
+    border:3px solid;
+    border-radius:18px;
+    text-align:justify;
+    line-height:1.6;
+    font-style:italic;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+    padding: 50px;
+    text-decoration: underline;
+}
+.purple{
+    background:#b78ad9;
+    border-color:#6d337d;
+}
+.green{
+    background:#9fd9d1;
+    border-color:#3a8c85;
+}
+.pink{
+    background:#f6a59a;
+    border-color:#b14d48;
+}
